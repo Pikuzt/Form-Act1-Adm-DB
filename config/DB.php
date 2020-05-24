@@ -4,10 +4,10 @@ include_once 'SERVER.PHP';
 
 class DB extends PDO
 {
-    private $host = 'localhost'; //	148.226.12.16
-    private $database = 'es172002022'; //cuo-espaciospublicos
-    private $user = 'root'; //usrespapub
-    private $password = ''; //ARq6Po3QMcUo
+    private $host = 'localhost';
+    private $database = 'es172002022'; 
+    private $user = 'root'; 
+    private $password = ''; 
     private $pdo;
     private $query;
     private $bConnected = false;
