@@ -5,10 +5,10 @@ include_once 'SERVER.PHP';
 class DB extends PDO
 {
 
-    private $host = 'localhost';
-    private $database = 'es172002022'; 
-    private $user = 'root'; 
-    private $password = ''; 
+    private $host = '192.168.200.24';
+    private $database = 'es172002022';
+    private $user = 'root_remote';
+    private $password = '123456';
     private $pdo;
     private $query;
     private $bConnected = false;
@@ -45,5 +45,4 @@ class DB extends PDO
     {
         $this->pdo = null;
     }
-
 }
